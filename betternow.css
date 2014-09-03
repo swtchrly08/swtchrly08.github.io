@@ -1,0 +1,94 @@
+html{
+	background-color: white;
+}
+body{
+	width: 1280px;
+	height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvettica, Arial, sans-serif;
+	font-size: 16px;
+	background-color: #EEEEEE;
+}
+#name{
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+}
+#name p{
+
+}
+#main-menu{
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #5A7596;
+}
+.menu-choices{
+	float: left;
+	display: block;
+	padding: 0px 15px;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #5A7596;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+.menu-choices a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+#content{
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+}
+#content p{
+	color: black;
+	font-variant: bold;
+	text-decoration: none;
+}
+#columnone{
+	width: 33%;
+	float: left;
+	display: block;
+	text-decoration: none;
+}
+#contact1{
+	
+}
+#columntwo{
+	width: 33%;
+	float: left;
+	display: block;
+	text-decoration: none;
+}
+#columnthree{
+	width: 33%;
+	float: left;
+	display: block;
+	text-decoration: none;
+}
+
+#footer{
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #5A7596
+}
+#footer p{
+	color: white;
+	text-decoration: none;
+	text-align: right;
+}
