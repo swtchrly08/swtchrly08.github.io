@@ -1,24 +1,31 @@
 html{
-	background-color: white;
+	background-color: #FFF;
 }
 body{
-	width: 1280px;
-	height: 720px;
+	width: 1440px;
+	height: 900px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: Helvettica, Arial, sans-serif;
+	font-family: "Helvettica", Arial, sans-serif;
 	font-size: 16px;
+	border-radius: 10px;
 	background-color: #EEEEEE;
+}
+a {
+	text-decoration: none;
+}
+a:link, a:visited{
+
+}
+a:hover, a:active {
+
+}
+h1{
+
 }
 #name{
 	width: 100%;
 	float: left;
-	margin: 0 0 3em 0;
-	padding: 0;
-	list-style: none;
-}
-#name p{
-
 }
 #main-menu{
 	width: 100%;
@@ -27,42 +34,48 @@ body{
 	padding: 0;
 	list-style: none;
 	background-color: #5A7596;
+	border-radius: 6px;
 }
-.menu-choices{
-	float: left;
-	display: block;
+.menu-choices{ 
+	float: center;
+	display: inline-block;
 	padding: 0px 15px;
 	text-decoration: none;
 	font-size: 1.5em;
 	font-weight: bold;
 	background-color: #5A7596;
 }
-.menu-choices a {
-	color: white;
+.menu-choices a:link, a:visited{
+	color: #FFF;
 	text-decoration: none;
 	text-align: center;
+	border-radius: 6px;
+}
+.menu-choices a:hover, a:active {
+	background-color: #FFF;
+	color: #5A7596;
+	padding: 0 2%;
+	border-radius: 6px;
 }
 #content{
 	width: 100%;
 	float: left;
-	margin: 0 0 3em 0;
-	padding: 0;
-	list-style: none;
 }
-#content p{
+#content article{
 	color: black;
 	font-variant: bold;
 	text-decoration: none;
+
 }
 #columnone {
-	width: 33%;
+	width: 29%;
+	margin: 0 1%;
 	float: left;
 	display: block;
 	text-decoration: none;
-
+	background-color: #FFF;
+	border-radius: 6px;
 }
-#contact { width: 400px; margin: 40px auto; }
-
 #contact li {
  	list-style-type:none;
 }
@@ -92,29 +105,28 @@ body{
 #contact li a.contact5 {background-position:0px -575px;
 }*/
 #columntwo{
-	width: 33%;
+	width: 29%;
+	margin: 0 1%;
 	float: left;
 	display: block;
-	text-decoration: none;
 }
 #columnthree{
-	width: 33%;
+	width: 29%;
+	margin: 0 1%;
 	float: left;
 	display: block;
-	text-decoration: none;
-	border-style: line solid 1px;
 }
-
 #footer{
 	width: 100%;
 	float: left;
 	margin: 0 0 3em 0;
-	padding: 0;
 	list-style: none;
-	background-color: #5A7596
+	background-color: #5A7596;
+	border-radius: 6px;
 }
 #footer p{
 	color: white;
 	text-decoration: none;
 	text-align: right;
+	padding-right: 2%;
 }
