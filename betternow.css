@@ -3,7 +3,7 @@ html{
 }
 body{
 	width: 1440px;
-	height: 900px;
+	height: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 	font-family: "Helvettica", Arial, sans-serif;
@@ -11,13 +11,13 @@ body{
 	border-radius: 10px;
 	background-color: #EEEEEE;
 }
-a {
+a{
 	text-decoration: none;
 }
 a:link, a:visited{
 
 }
-a:hover, a:active {
+a:hover, a:active{
 
 }
 h1{
@@ -31,13 +31,13 @@ h1{
 	width: 100%;
 	float: left;
 	margin: 0 0 3em 0;
-	padding: 0;
+	padding: 2% 0;
 	list-style: none;
 	background-color: #5A7596;
 	border-radius: 6px;
 }
 .menu-choices{ 
-	float: center;
+	float: left;
 	display: inline-block;
 	padding: 0px 15px;
 	text-decoration: none;
@@ -51,10 +51,9 @@ h1{
 	text-align: center;
 	border-radius: 6px;
 }
-.menu-choices a:hover, a:active {
+.menu-choices a:hover, a:active{
 	background-color: #FFF;
 	color: #5A7596;
-	padding: 0 2%;
 	border-radius: 6px;
 }
 #content{
@@ -67,54 +66,102 @@ h1{
 	text-decoration: none;
 
 }
-#columnone {
+#columnone{
 	width: 29%;
-	margin: 0 1%;
+	margin: 1% 1%;
+	padding: 1% 1%;
 	float: left;
 	display: block;
-	text-decoration: none;
-	background-color: #FFF;
-	border-radius: 6px;
+	background-color: #5A7596;
 }
-#contact li {
- 	list-style-type:none;
-}
-/*#contact li a {
-	background-image:url(metalicons.jpg);
-	background-repeat:no-repeat;
-	padding: 10px 10px 10px 90px;
-	display: inline-block;
-	height: 24px;
-	width: 24px;
-}*/
-#contact li a {
+#contact{
+	height: 100%;
+	float: left;
 	display: block;
-	background-image: url(metalicons.jpg);
-	height: 60px;
-	width: 60px;
-	text-indent: -9999px;
+	list-style: none;
+	border-radius: 6px;
+	margin: 0 2%;
 }
-#contact1 a {background-position: 194px 188px;
+#contact li a:link, a:visited{
+	color: #FFF;
 }
-/*#contact li a.contact2 {background-position:0px -143px;
+#contact li a:hover, a:active{
+	color: transparent;
+   	text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
-#contact li a.contact3 {background-position:0px -287px;
+#contact li a.contact1{
+	float: left;
+	display: block;
+	font-size: 1.5em;
+	margin: 2% 0;
+ 	border-radius: 10px;
+ 	background-image: url(metalicons.jpg);
+ 	background-position: 408px 420px;
+ 	height: 60px;
+ 	width: 60px;
+ 	text-indent: 80px;
+ }
+#contact li a.contact2{
+	float: left;
+	display: block;
+	font-size: 1.5em;
+	margin: 2% 0;
+ 	border-radius: 10px;
+ 	background-image: url(metalicons.jpg);
+ 	background-position: 408px 272px;
+ 	height: 60px;
+ 	width: 60px;
+ 	text-indent: 80px;
 }
-#contact li a.contact4 {background-position:0px -431px;
+#contact li a.contact3{
+	float: left;
+	display: block;
+	font-size: 1.5em;
+	margin: 2% 0;
+ 	border-radius: 10px;
+ 	background-image: url(metalicons.jpg);
+ 	background-position: 314px 272px;
+ 	height: 60px;
+ 	width: 60px;
+ 	text-indent: 80px;
 }
-#contact li a.contact5 {background-position:0px -575px;
-}*/
+#contact li a.contact4{
+	float: left;
+	display: block;
+	font-size: 1.5em;
+	margin: 2% 0;
+ 	border-radius: 10px;
+ 	background-image: url(metalicons.jpg);
+ 	background-position: 220px 197px; 
+ 	height: 60px;
+ 	width: 60px;
+ 	text-indent: 80px;
+}
+#contact li a.contact5{
+	float: left;
+	display: block;
+	font-size: 1.5em;
+	margin: 2% 0;
+ 	border-radius: 10px;
+ 	background-image: url(metalicons.jpg);
+ 	background-position: 314px 345px;
+ 	height: 60px;
+ 	width: 60px;
+ 	text-indent: 80px;
+}
 #columntwo{
 	width: 29%;
-	margin: 0 1%;
+	margin: 1% 1%;
 	float: left;
 	display: block;
 }
 #columnthree{
-	width: 29%;
-	margin: 0 1%;
+	width: 24%;
+	margin: 1% 1%;
+	padding: 2% 2%;
 	float: left;
 	display: block;
+	border: 8px double #5A7596;
 }
 #footer{
 	width: 100%;
