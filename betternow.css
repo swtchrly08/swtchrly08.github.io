@@ -14,14 +14,9 @@ body{
 a{
 	text-decoration: none;
 }
-a:link, a:visited{
-
-}
-a:hover, a:active{
-
-}
-h1{
-
+h1, h2, h3{
+	font-style: italic;
+	color: black;
 }
 #name{
 	width: 100%;
@@ -30,31 +25,26 @@ h1{
 #main-menu{
 	width: 100%;
 	float: left;
-	margin: 0 0 3em 0;
-	padding: 2% 0;
-	list-style: none;
 	background-color: #5A7596;
-	border-radius: 6px;
+	border-radius: 10px;
 }
 .menu-choices{ 
 	float: left;
-	display: inline-block;
-	padding: 0px 15px;
-	text-decoration: none;
-	font-size: 1.5em;
-	font-weight: bold;
+	display: block;
+	font-size: 2.0em;
+	padding: 1% 2%;
 	background-color: #5A7596;
+}
+.menu-choices a{
+	display: block;
 }
 .menu-choices a:link, a:visited{
 	color: #FFF;
-	text-decoration: none;
-	text-align: center;
-	border-radius: 6px;
 }
 .menu-choices a:hover, a:active{
 	background-color: #FFF;
 	color: #5A7596;
-	border-radius: 6px;
+	border-radius: 10px;
 }
 #content{
 	width: 100%;
@@ -69,18 +59,17 @@ h1{
 #columnone{
 	width: 29%;
 	margin: 1% 1%;
-	padding: 1% 1%;
 	float: left;
 	display: block;
 	background-color: #5A7596;
+	border-radius: 10px;
 }
 #contact{
 	height: 100%;
 	float: left;
 	display: block;
 	list-style: none;
-	border-radius: 6px;
-	margin: 0 2%;
+	border-radius: 10px;
 }
 #contact li a:link, a:visited{
 	color: #FFF;
@@ -150,8 +139,9 @@ h1{
  	text-indent: 80px;
 }
 #columntwo{
-	width: 29%;
+	width: 33%;
 	margin: 1% 1%;
+	padding: 1% 1%;
 	float: left;
 	display: block;
 }
@@ -159,19 +149,22 @@ h1{
 	width: 24%;
 	margin: 1% 1%;
 	padding: 2% 2%;
-	float: left;
+	float: right;
 	display: block;
 	border: 8px double #5A7596;
+	background-color: #FFF;
+	border-radius: 10px;
 }
 #footer{
 	width: 100%;
 	float: left;
-	margin: 0 0 3em 0;
+	margin: 2% 0;
+	padding: 1% 0;
 	list-style: none;
 	background-color: #5A7596;
-	border-radius: 6px;
+	border-radius: 10px;
 }
-#footer p{
+#footer h3{
 	color: white;
 	text-decoration: none;
 	text-align: right;
