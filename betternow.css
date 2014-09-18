@@ -107,7 +107,7 @@ h2, h3{
 	color: #FFF;
 }
 #contact li a:hover, a:active{
-	opacity: 10;
+	trans
 }
 #contact li a.contact1{
 	float: left;

@@ -21,6 +21,9 @@ h2, h3{
 	font-style: italic;
 	color: white;
 }
+li{
+	list-style: none;
+}
 #title{
 	width: 100%;
 	float: left;
@@ -65,13 +68,6 @@ h2, h3{
 	float: left;
 	display: block;
 }
-#pagewrap{
-	width: 100%;
-	display: inline-block;
-}
-#contactform{
-	float: left;
-}
 #content article{
 	color: black;
 	font-variant: bold;
@@ -91,43 +87,70 @@ h2, h3{
 #update a{
 	color: #5A7596;
 }
-#contact{
-	list-style: none;
-	border-radius: 10px;
+#leftcolumn{
+	display: block;
+	float: left;
+	width: 32%;
+	margin: 2%;
+	padding: 2%;
 }
-#contact li{
+#contactform{
+	width: 100%;
+	margin: 2%;
+	padding: 2%;
+	border: 0;
+	outline: none;
+	background-color: #5A7596;
+	color: #EEEEEE;
+	float: left;
+	display: block;
+	border-radius: 10px;
+	border: 8px double #EEEEEE;
+}
+#contactbar{
+	width: 100%;
+	display: block;
+	float: left;
+	margin: 2%;
+	padding: 2%;
+}
+#contactbar li{
 	display: inline-block;
 }
-#contact li a.contacts{
+#contactbar li a.contacts{
 	float: left;
 	display: block;
 	margin: 2% 0;
  	border-radius: 10px;
  	background-image: url(metalicons.jpg);
- 	background-position: 220px 197px; 
  	height: 60px;
  	width: 60px;
  	text-indent: 80px;
 }
-#contact li a#contact1{
+#contactbar li a#contact1{
  	background-position: 408px 420px;
 }
-#contact li a#contact2{
+#contactbar li a#contact2{
  	background-position: 408px 272px;
 }
-#contact li a#contact3{
+#contactbar li a#contact3{
  	background-position: 314px 272px;
 }
-
-#contact li a#contact4{
+#contactbar li a#contact4{
 	background-position: 220px 197px;
+}
+#rightcolumn{
+	float: right;
+	width: 52%;
+	margin: 2%;
+	padding: 2%;
 }
 #AboutUs{
 	float: left;
+	margin: 2%;
+	padding: 2%;
 	border: 8px double #5A7596;
 	background-color: #FFF;`
-	margin: 1% 1%;
-	padding: 1% 1%;
 	border-radius: 10px;
 }
 #footer{
@@ -145,19 +168,7 @@ h2, h3{
 	text-align: right;
 	padding-right: 2%;
 }
-#contactform{
-	height: 100%;
-	width: 33%;
-	margin: 2%;
-	border: 0;
-	outline: none;
-	background-color: #5A7596;
-	color: #EEEEEE;
-	float: left;
-	display: block;
-	border-radius: 10px;
-	border: 8px double #EEEEEE;
-}
+
 #name{
 	height: 24px;
 	width: 400px;
@@ -184,7 +195,7 @@ h2, h3{
 	margin: 2%;
 }
 h2{
-	color: #EEEEEE;
+	color: #FFF;
 	text-align: left;
 	padding: 0 2%;
 }
@@ -196,7 +207,7 @@ input[type=submit] {
 	border: ;
 	cursor: pointer;
 	color: #5A7596;
-	background-color: #EEEEEE;
+	background-color: #FFF;
 	border-radius: 10px;
 	border: 8px double #5A7596;
 }
