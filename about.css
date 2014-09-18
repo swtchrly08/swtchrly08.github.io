@@ -1,0 +1,116 @@
+html{
+	background-color: #FFF;
+}
+body{
+	width: 1440px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Helvettica", Arial, sans-serif;
+	font-size: 16px;
+	border-radius: 10px;
+	background-color: #EEEEEE;
+}
+a{
+	text-decoration: none;
+}
+h1, h2, h3{
+	font-style: italic;
+	color: black;
+}
+#title{
+	width: 100%;
+	float: left;
+}
+#main-menu{
+	width: 100%;
+	float: left;
+	background-color: #5A7596;
+	border-radius: 10px;
+}
+.menu-choices{ 
+	float: left;
+	display: block;
+	font-size: 2.0em;
+	padding: 1% 2%;
+	background-color: #5A7596;
+}
+.menu-choices a{
+	display: block;
+}
+.menu-choices a:link, a:visited{
+	color: #FFF;
+}
+.menu-choices a:hover, a:active{
+	background-color: #FFF;
+	color: #5A7596;
+	border-radius: 10px;
+}
+#content{
+	width: 100%;
+	float: left;
+}
+#footer{
+	width: 100%;
+	float: left;
+	margin: 2% 0;
+	padding: 1% 0;
+	list-style: none;
+	background-color: #5A7596;
+	border-radius: 10px;
+}
+#footer h3{
+	color: white;
+	text-decoration: none;
+	text-align: right;
+	padding-right: 2%;
+}
+#contactform{
+	height: 100%;
+	width: 33%;
+	margin: 2%;
+	border: 0;
+	outline: none;
+	background-color: #5A7596;
+	color: #EEEEEE;
+	float: left;
+	display: block;
+	border-radius: 10px;
+	border: 8px double #EEEEEE;
+}
+#name{
+	height: 24px;
+	width: 400px;
+	margin: 2%;
+}
+#email{
+	height: 24px;
+	width: 400px;
+	margin: 2%;
+}
+#message{
+	width: 400px;
+	height: 200px;
+	margin: 2%;
+}
+#submit{
+	padding: 2%;
+	margin: 2%;
+}
+h2{
+	color: #EEEEEE;
+	text-align: left;
+	padding: 0 2%;
+}
+input[type=submit] {
+	width: 185px; height: 52px;
+	float: left;
+	padding: 2%;
+	margin: 2%;
+	border: ;
+	cursor: pointer;
+	color: #5A7596;
+	background-color: #EEEEEE;
+	border-radius: 10px;
+	border: 8px double #5A7596;
+}
