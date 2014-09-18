@@ -170,3 +170,53 @@ h1, h2, h3{
 	text-align: right;
 	padding-right: 2%;
 }
+
+#contactform{
+	height: 100%;
+	width: 33%;
+	margin: 2%;
+	border: 0;
+	outline: none;
+	background-color: #5A7596;
+	color: #EEEEEE;
+	float: left;
+	display: block;
+	border-radius: 10px;
+	border: 8px double #EEEEEE;
+}
+#name{
+	height: 24px;
+	width: 400px;
+	margin: 2%;
+}
+#email{
+	height: 24px;
+	width: 400px;
+	margin: 2%;
+}
+#message{
+	width: 400px;
+	height: 200px;
+	margin: 2%;
+}
+#submit{
+	padding: 2%;
+	margin: 2%;
+}
+h2{
+	color: #EEEEEE;
+	text-align: left;
+	padding: 0 2%;
+}
+input[type=submit] {
+	width: 185px; height: 52px;
+	float: left;
+	padding: 2%;
+	margin: 2%;
+	border: ;
+	cursor: pointer;
+	color: #5A7596;
+	background-color: #EEEEEE;
+	border-radius: 10px;
+	border: 8px double #5A7596;
+}
