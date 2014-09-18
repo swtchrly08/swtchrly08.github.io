@@ -14,6 +14,10 @@ body{
 a{
 	text-decoration: none;
 }
+a:hover{
+	transition: all .5s linear 0;
+	color: hsl(36,100%,50%);
+}
 h1{
 	color: black;
 }
@@ -28,7 +32,6 @@ h2, h3{
 #main-menu{
 	width: 100%;
 	float: left;
-	display: inline-block;
 	background-color: #5A7596;
 	border-radius: 10px;
 }
@@ -42,16 +45,10 @@ h2, h3{
 	padding: 0 1%;
 	margin-bottom: 10px;
 }
-.menu-choices a{
-	display: block;
-	padding: 1% 1%;
-	margin: 0 0;
-}
 .menu-choices a:link, a:visited{
 	display: block;
 	padding: 1% 1%;
 	color: #FFF;
-	text-transform: none;
 }
 .menu-choices a:hover, a:active{
 	display: block;
@@ -61,7 +58,6 @@ h2, h3{
 	height: 100%;
 	width: 100%;
 	border-radius: 10px;
-	text-transform: none;
 }
 #content{
 	width: 100%;
@@ -103,13 +99,21 @@ h2, h3{
 	list-style: none;
 	border-radius: 10px;
 }
-#contact li a:link, a:visited{
+#contact li a.contacts:link, a.contacts:visited{
+	display: block;
+	padding: 1% 1%;
+	color: #5A7596;
+}
+#contact li a.contacts:hover, a.contacts:active{
+	display: block;
+	padding: 1% 1%;
+	background-color: #5A7596;
 	color: #FFF;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
 }
-#contact li a:hover, a:active{
-	opacity: 10;
-}
-#contact li a.contact1{
+#contact li a#contact1{
 	float: left;
 	display: block;
 	font-size: 1.5em;
@@ -121,7 +125,7 @@ h2, h3{
  	width: 60px;
  	text-indent: 80px;
  }
-#contact li a.contact2{
+#contact li a#contact2{
 	float: left;
 	display: block;
 	font-size: 1.5em;
@@ -133,7 +137,7 @@ h2, h3{
  	width: 60px;
  	text-indent: 80px;
 }
-#contact li a.contact3{
+#contact li a#contact3{
 	float: left;
 	display: block;
 	font-size: 1.5em;
@@ -145,7 +149,7 @@ h2, h3{
  	width: 60px;
  	text-indent: 80px;
 }
-#contact li a.contact4{
+#contact li a#contact4{
 	float: left;
 	display: block;
 	font-size: 1.5em;
@@ -157,7 +161,7 @@ h2, h3{
  	width: 60px;
  	text-indent: 80px;
 }
-#contact li a.contact5{
+#contact li a#contact5{
 	float: left;
 	display: block;
 	font-size: 1.5em;
@@ -169,23 +173,7 @@ h2, h3{
  	width: 60px;
  	text-indent: 80px;
 }
-#columntwo{
-	width: 33%;
-	margin: 1% 1%;
-	padding: 1% 1%;
-	float: left;
-	display: block;
-}
-#columnthree{
-	width: 24%;
-	margin: 1% 1%;
-	padding: 2% 2%;
-	float: right;
-	display: block;
-	border: 8px double #5A7596;
-	background-color: #FFF;
-	border-radius: 10px;
-}
+
 #footer{
 	width: 100%;
 	float: left;
