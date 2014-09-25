@@ -1,0 +1,11 @@
+.ticker {
+	overflow: hidden;
+	height: 90px;
+	vertical-align: baseline;
+}
+
+.ticker h2 {
+	margin-bottom: 0px;
+	height: 90px;
+    transition:         margin-top 0.5s ease-in-out;
+}
