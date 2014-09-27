@@ -18,8 +18,8 @@
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="ready.html">One</a></li>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="bestyet.html">Responsive</a></li>
+						<li><a href="webapp.html">Webapp</a></li>
+						<li><a href="#">Three</a></li>
 						<li><a href="#">Four</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Five <b class="caret"></b></a>

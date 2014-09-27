@@ -23,6 +23,7 @@ p {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: 0;
+	height: 80px;
 }
 #logo {
   
@@ -43,11 +44,24 @@ p {
 	color: white;
 	font-size: 24px;
 	font-style: italic;
+	height: 892px;
 	text-align: center;
 }
 #box2 {
 	background-color: #FFF;
 	border: double #5A7596 8px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 0;
+	height: 520px;
+}
+.essays {
+}
+
+.essaysa {
+  background-color: pink;
 }
 #container2 {
 	display: flex;
@@ -55,7 +69,8 @@ p {
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	margin: 0.5%;
+	height: 730px;
+
 }
 .con2 {
 }
@@ -63,31 +78,37 @@ p {
   width: 640px;
   height: 480px;
 }
+
+ul {
+  list-style: none;
+}
+
 #container3 {
 
 }
 #box6 {
-	background-color: #B0B0B0;
+	background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jute_nahtlos.png/240px-Jute_nahtlos.png);
+	background-repeat: repeat;
+	color: #F5F5DC; 
 	height: 240px;
 }
-
-
-
-
-
-#box7 {background-color: #33FF66}
-#box8 {background-color: #FFCC33}
-
-#box9 {background-color: #B88A00}
-#box10 {background-color: #CC33FF}
-#box11 {background-color: #CCFF33}
-#box12 {background-color: #002EB8}
-
-#box8 ul{
-	display: flex;
+#box7 {
+    background-color: #FFFFFF;
+    height: 240px;
+    border: double #5A7596 4px;
+    margin: 4px 0;
+ }
+#box8 {
+    background-color: #FFCC33;
+    height: 240px;
 }
-#box8 ul li{
-	justify-content: center;
+#photobar {
+  background: #EEEEEE;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0;
 }
 #container4 {
 	display: flex;
@@ -100,3 +121,7 @@ p {
 	color: black;
 	font-size: 12px;
 }
+#box9 {background-color: #B88A00}
+#box10 {background-color: #CC33FF}
+#box11 {background-color: #CCFF33}
+#box12 {background-color: #002EB8}
