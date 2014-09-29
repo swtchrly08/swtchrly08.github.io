@@ -57,7 +57,7 @@ em {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	background: url(bettercominedcellphone.png);
+	background: url(/img/bettercominedcellphone.png);
 	width: 1200px;
 	height: 900px;
 	font-size: 24px;
@@ -148,7 +148,7 @@ ul {
 
 }
 #box6 {
-	background-image: url(http://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jute_nahtlos.png/240px-Jute_nahtlos.png);
+	background-image: url();
 	background-repeat: repeat;
 	color: #F5F5DC; 
 	height: 240px;
