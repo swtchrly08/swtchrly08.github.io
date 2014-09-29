@@ -167,6 +167,7 @@ ul {
 }
 #box7 {
 	background-image: url(/img/kittens/catbackground.png);
+	background-repeat: no-repeat;
     background-color: #FFFFFF;
     height: 240px;
     border: double #5A7596 4px;
@@ -174,15 +175,31 @@ ul {
  }
 #box8 {
     background-color: #FFCC33;
-    height: 240px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+}
+#horses{
+  align-self: center;
+}
+.list-row {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+	align-items: center;
 }
 #photobar {
   background: #EEEEEE;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.horsepics {
+	width: 285px;
+	height: 228px;
 }
 #container4 {
 	display: flex;
