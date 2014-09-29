@@ -1,10 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
 	background: #EEEEEE;
+	width: 1200px;
+	height: 3840px;
 }
 a {
 	text-decoration: none;
 }
-li {
+ul {
 	list-style: none;
 }
 article {
@@ -12,9 +18,13 @@ article {
 	color: black;
 	font-size: 14px;
 	background-color: #FFF;
+	white-space: wrap;
 }
 p {
   margin: 0;
+}
+em {
+  text-transform: uppercase;
 }
 .navigation {
 	background: #EEEEEE;
@@ -38,14 +48,64 @@ p {
 }
 #container1 {
 	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
 }
-#box1 {
-	background-color: #5A7596;
-	color: white;
+#box_one {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background: url(bettercominedcellphone.png);
+	width: 1200px;
+	height: 900px;
 	font-size: 24px;
-	font-style: italic;
-	height: 892px;
+	align-items: center;
+	justify-content: space-between;
+}
+#phntype {
+  
+}
+.phonetypes {
+	overflow: hidden;
+	background-clip: border-box;
+	font-size: 50px;
 	text-align: center;
+	letter-spacing: 0.20em;
+	position: relative;
+	-webkit-animation: mymove 10s infinite;
+	/*animation: mymove 10s infinite;*/
+}
+@-webkit-keyframes mymove {
+	0%    {top: -300px;}
+	20%   {top: -240px;}
+	40%   {top: -180px;}
+	60%   {top: -120px;}
+	80%   {top: -60px;}
+	100%  {top: 0px;}
+}
+/*keyframes mymove {
+	0%    {top: -300px;}
+	20%   {top: -240px;}
+	40%   {top: -180px;}
+	60%   {top: -120px;}
+	80%   {top: -60px;}
+	100%  {top: 0px;}
+}*/
+#button_one{
+	padding: 12px;
+	border: 1px solid white; 
+}
+#boxone_link{
+	font-size: 38px;
+}
+#boxone_link:hover{
+  /*make shadow*/
+}
+#headline {
+	padding: 12px;
+	font-style: italic;
 }
 #box2 {
 	background-color: #FFF;
@@ -58,6 +118,7 @@ p {
 	height: 520px;
 }
 .essays {
+
 }
 
 .essaysa {

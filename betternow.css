@@ -22,8 +22,13 @@ h2, h3{
 	color: black;
 }
 #title{
-	width: 100%;
 	float: left;
+	width: 100%;
+}
+#title a img{
+	float: left;
+	height: 40px;
+	width: 60px;
 }
 #main-menu{
 	width: 100%;
