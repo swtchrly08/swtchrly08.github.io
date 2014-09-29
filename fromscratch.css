@@ -65,17 +65,25 @@ em {
 	justify-content: space-between;
 }
 #phntype {
-  
+  height: 60px;
+  overflow: hidden;
+
 }
 .phonetypes {
-	overflow: hidden;
-	background-clip: border-box;
-	font-size: 50px;
-	text-align: center;
-	letter-spacing: 0.20em;
-	position: relative;
-	-webkit-animation: mymove 10s infinite;
-	/*animation: mymove 10s infinite;*/
+  list-style: none;
+  position: relative;
+  -webkit-animation: mymove 10s infinite;
+  /*animation: mymove 10s infinite;*/
+  font-size: 50px;
+}
+@-webkit-keyframes mymove {
+	0%    {top: 0px;}
+  10%    {top: 0px}
+	25%   {top: -60px;}
+	50%   {top: -120px;}
+	75%   {top: -180px;}
+	100%   {top: -240px;}
+	
 }
 @-webkit-keyframes mymove {
 	0%    {top: -300px;}
