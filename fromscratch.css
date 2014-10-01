@@ -1,6 +1,7 @@
 *{
-  margin: 0;
+  margin: 1px;
   padding: 0;
+  /*text-shadow: 4px 4px 0 rgba(0,0,0,0.1);*/
 }
 body {
 	background: #EEEEEE;
@@ -12,6 +13,7 @@ body {
 }
 a {
 	text-decoration: none;
+	color: black;
 }
 ul {
 	list-style: none;
@@ -27,27 +29,27 @@ p {
 
 }
 em {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 .navigation {
-	background: #EEEEEE;
+	background: #;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	margin: 0;
 	height: 80px;
+
 }
 #logo {
-  
+	height: 78px;
 }
 .navigation li {
    
 }
 .navbox {
-	color: #5A7596;
-	text-align: center;
-	text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+	text-align: center; /*is this necessary*/
+	
 }
 #container_one {
 	display: flex;
@@ -60,41 +62,33 @@ em {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	background: url(/img/bettercominedcellphone.png);
+	background: url(/img/ideas/bloom-2608_1280.jpg);
 	width: 1200px;
-	height: 900px;
-	font-size: 24px;
+	height: 799px;
 	align-items: center;
 	justify-content: center;
 }
 #phntype {
-  height: 60px;
-  overflow: hidden;
+  	height: 60px;
+  	overflow: hidden;
 
 }
 .phonetypes {
-  list-style: none;
-  position: relative;
-  -webkit-animation: mymove 10s infinite;
-  /*animation: mymove 10s infinite;*/
-  font-size: 50px;
+	color: white;
+	text-align: center;
+  	position: relative;
+  	-webkit-animation: mymove 10s infinite;
+  	/*animation: mymove 10s infinite;*/
+  
 }
 @-webkit-keyframes mymove {
 	0%    {top: 0px;}
-  10%    {top: 0px}
+    10%   {top: 0px}
 	25%   {top: -60px;}
 	50%   {top: -120px;}
 	75%   {top: -180px;}
 	100%   {top: -240px;}
 	
-}
-@-webkit-keyframes mymove {
-	0%    {top: -300px;}
-	20%   {top: -240px;}
-	40%   {top: -180px;}
-	60%   {top: -120px;}
-	80%   {top: -60px;}
-	100%  {top: 0px;}
 }
 /*keyframes mymove {
 	0%    {top: -300px;}
@@ -109,68 +103,27 @@ em {
 	border: 1px solid white; 
 }
 #boxone_link{
-	font-size: 38px;
+	
 }
 #boxone_link:hover{
   /*make shadow*/
 }
 #headline {
 	padding: 12px;
-	font-style: italic;
 
 }
-#box2 {
-	background-color: #FFF;
-	border: double #5A7596 8px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: baseline;
-	margin: 0;
-	height: 520px;
-}
-.essays {
-
-}
-
-.essaysa {
-  background-color: pink;
-}
-#container2 {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	align-items: center;
-	height: 730px;
-
-}
-.con2 {
-}
-.img {
-  width: 640px;
-  height: 480px;
-}
-
-ul {
-  list-style: none;
-}
-
-#container3 {
-
-}
-#box6 {
-	background-image: url(/img/stitched.png);
+#box_two {
+	background-color: #FFFFFF;
 	background-repeat: repeat;
-	color: #F5F5DC; 
 	height: 240px;
 }
 #box_three {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
-	background-image: url(/img/kittens/catbackground.png);
+	background-image: url(/img/ideas/meadow-196567_1280.jpg);
 	background-repeat: no-repeat;
+	height: 520px;
 }
 .sect_title h2{
 	text-align: center;  
@@ -195,22 +148,19 @@ ul {
 	width: 52px;
 }
 
-
-
-
-
-
-
-
-#box8 {
-    background-color: #FFCC33;
+#box_four {
+    background-color: #FFFFFF;
     height: 260px;
     display: flex;
     flex-direction: column;
     flex-wrap: no-wrap;
+    margin: 1%;
+    padding: 1%;
+    
 }
 #horses{
   align-self: center;
+
 }
 .list-row {
   display: flex;
@@ -220,7 +170,6 @@ ul {
 	align-items: center;
 }
 #photobar {
-  background: #EEEEEE;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -240,8 +189,39 @@ ul {
 
 .contact {
 	margin: 2px;
-	color: black;
 	font-size: 12px;
+}
+#box9 {background-color: #B88A00}
+#box10 {background-color: #CC33FF}
+#box11 {background-color: #CCFF33}
+#box12 {background-color: #002EB8}
+
+#box_six {
+	background-color: #FFF;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: baseline;
+	margin: 0;
+	height: 520px;
+}
+.essays {
+
+}
+
+.essaysa {
+ 
+}
+#container4 {
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+	background-color: #CCFF33;
+	justify-content: flex-end;
+}
+
+.contact {
+
 }
 #box9 {background-color: #B88A00}
 #box10 {background-color: #CC33FF}
