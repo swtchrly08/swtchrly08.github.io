@@ -32,24 +32,21 @@ em {
 	text-transform: uppercase;
 }
 .navigation {
-	background: #;
+	background: #FFFFFF;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
-	margin: 0;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
 	height: 80px;
-
-}
-#logo {
-	height: 78px;
-}
-.navigation li {
-   
 }
 .navbox {
-	text-align: center; /*is this necessary*/
-	
+  color: #808080;
+  font-size: 20px;   
+}
+.navbox:hover{
+  color: #8F220A;
 }
 #container_one {
 	display: flex;
@@ -59,6 +56,7 @@ em {
 	justify-content: center;
 }
 #box_one {
+	color: white;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -66,19 +64,18 @@ em {
 	width: 1200px;
 	height: 799px;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 }
 #phntype {
   	height: 60px;
   	overflow: hidden;
-
 }
 .phonetypes {
-	color: white;
+	font-size: 48px;
 	text-align: center;
-  	position: relative;
-  	-webkit-animation: mymove 10s infinite;
-  	/*animation: mymove 10s infinite;*/
+	position: relative;
+	-webkit-animation: mymove 10s infinite;
+	/*animation: mymove 10s infinite;*/
   
 }
 @-webkit-keyframes mymove {
@@ -102,15 +99,25 @@ em {
 	padding: 12px;
 	border: 1px solid white; 
 }
+#button_one:hover{
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.25);
+}
+
 #boxone_link{
+  color: white;
+  font-size: 24px;
+  
 	
 }
 #boxone_link:hover{
-  /*make shadow*/
+  color: transparent;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5); /*dont know about this*/
 }
 #headline {
 	padding: 12px;
-
+  font-size: 24px;
+  
 }
 #box_two {
 	background-color: #FFFFFF;
