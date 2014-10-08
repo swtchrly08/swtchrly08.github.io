@@ -22,7 +22,7 @@ article {
 	padding: 2%;
 	color: black;
 	font-size: 14px;
-	background: url(/imgs/ideas/paper.jpg);
+	background: url(/img/ideas/paper.jpg);
 	white-space: wrap;
 }
 p {
@@ -30,6 +30,9 @@ p {
 }
 em {
 	text-transform: uppercase;
+}
+.subtitle {
+  text-align: center; 
 }
 .navigation {
 	background: #FFFFFF;
@@ -132,15 +135,6 @@ em {
 	background-repeat: no-repeat;
 	height: 520px;
 }
-.sect_title h2{
-	text-align: center;  
-}
-.sect_sep p{
-	text-align: center;
-}
-.sect_sub h6{
-	text-align: center;
-}
 #kats {
 	display: flex;
 	flex-direction: row;
@@ -186,23 +180,6 @@ em {
 	width: 285px;
 	height: 228px;
 }
-#container4 {
-	display: flex;
-	flex-direction: row;
-    flex-wrap: wrap;
-	background-color: #CCFF33;
-	justify-content: flex-end;
-}
-
-.contact {
-	margin: 2px;
-	font-size: 12px;
-}
-#box9 {background-color: #B88A00}
-#box10 {background-color: #CC33FF}
-#box11 {background-color: #CCFF33}
-#box12 {background-color: #002EB8}
-
 #box_six {
   background-color: white;
 	display: flex;
@@ -211,9 +188,7 @@ em {
 	align-items: center;
 	
 }
-.subtitle {
-  text-align: center; 
-}
+
 #testimonials {
   background-color: black;
 	display: flex;
@@ -229,32 +204,48 @@ em {
   text-align: justify;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #container4 {
 	display: flex;
 	flex-direction: row;
-    flex-wrap: wrap;
-	background-color: #CCFF33;
-	justify-content: flex-end;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .contact {
 
 }
-#box9 {background-color: #B88A00}
-#box10 {background-color: #CC33FF}
-#box11 {background-color: #CCFF33}
-#box12 {background-color: #002EB8}
+#box9 {
+	border-radius: 10px;
+	background-image: url(metalicons.jpg);
+	background-position: 314px 272px;
+	height: 60px;
+	width: 60px;
+}
+#box10 {
+	border-radius: 10px;
+	background-image: url(metalicons.jpg);
+	background-position: 408px 272px;
+	height: 60px;
+	width: 60px;
+}
+#box11 {
+	border-radius: 10px;
+	background-image: url(metalicons.jpg);
+	background-position: 220px 197px;
+	height: 60px;
+	width: 60px;
+}
+#box12 {
+	border-radius: 10px;
+	background-image: url(metalicons.jpg);
+	background-position: 408px 420px;
+	height: 60px;
+	width: 60px;
+}
+#searchbox{
+	height: 40px;
+	border: none;
+}
+
