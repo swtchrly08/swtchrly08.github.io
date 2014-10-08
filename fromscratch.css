@@ -19,10 +19,10 @@ ul {
 	list-style: none;
 }
 article {
-	padding: 1%;
+	padding: 2%;
 	color: black;
 	font-size: 14px;
-	background-color: #FFF;
+	background: url(/imgs/ideas/paper.jpg);
 	white-space: wrap;
 }
 p {
@@ -204,21 +204,45 @@ em {
 #box12 {background-color: #002EB8}
 
 #box_six {
-	background-color: #FFF;
+  background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.subtitle {
+  text-align: center; 
+}
+#testimonials {
+  background-color: black;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: baseline;
-	margin: 0;
-	height: 520px;
 }
 .essays {
-
+  margin: 1%;
+  padding: 1%;
+  background: 
+  background-repeat: no-repeat;
+  text-align: justify;
 }
 
-.essaysa {
- 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #container4 {
 	display: flex;
 	flex-direction: row;
