@@ -147,26 +147,21 @@ em {
 	height: 52px;
 	width: 52px;
 }
-
 #box_four {
     background-color: #FFFFFF;
-    height: 260px;
     display: flex;
     flex-direction: column;
-    flex-wrap: no-wrap;
-    
-    
-}
-#horses{
-  align-self: center;
-
+    align-items: space-around;
 }
 .list-row {
   display: flex;
 	flex-direction: row;
 	flex-wrap: no-wrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
+}
+.sortinglinks{
+  color: red;  
 }
 #photobar {
   display: flex;
