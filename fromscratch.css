@@ -132,7 +132,7 @@ em {
 	flex-wrap: nowrap;
 	background-image: url(/img/ideas/meadow-196567_1280.jpg);
 	background-repeat: no-repeat;
-	height: 520px;
+	/*height: 520px;*/
 }
 #kats {
 	display: flex;
