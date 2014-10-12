@@ -1,11 +1,10 @@
 *{
-  margin: 1px;
+  margin: 0;
   padding: 0;
   /*text-shadow: 4px 4px 0 rgba(0,0,0,0.1);*/
 }
 body {
 	background: #EEEEEE;
-	height: 3840px;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -42,6 +41,8 @@ em {
 	align-items: center;
 	margin: 0;
 	height: 80px;
+	/*position: fixed;
+	width: 100%;*/
 }
 .navbox {
   color: #808080;
@@ -153,6 +154,8 @@ em {
     flex-direction: column;
     align-items: space-around;
 }
+
+
 .list-row {
   display: flex;
 	flex-direction: row;
@@ -173,6 +176,11 @@ em {
 	width: 285px;
 	height: 228px;
 }
+
+
+
+
+
 #box_six {
   background-color: white;
 	display: flex;
@@ -207,35 +215,28 @@ em {
 }
 
 .contact {
+	border-radius: 10px;
+	background-image: url(metalicons.jpg);
+	height: 60px;
+	width: 60px;
+}
+.contact{
 
 }
+.contact:hover{
+	opacity: 0.5;
+}
 #box9 {
-	border-radius: 10px;
-	background-image: url(metalicons.jpg);
 	background-position: 314px 272px;
-	height: 60px;
-	width: 60px;
 }
 #box10 {
-	border-radius: 10px;
-	background-image: url(metalicons.jpg);
 	background-position: 408px 272px;
-	height: 60px;
-	width: 60px;
 }
 #box11 {
-	border-radius: 10px;
-	background-image: url(metalicons.jpg);
 	background-position: 220px 197px;
-	height: 60px;
-	width: 60px;
 }
 #box12 {
-	border-radius: 10px;
-	background-image: url(metalicons.jpg);
 	background-position: 408px 420px;
-	height: 60px;
-	width: 60px;
 }
 #searchbox{
 	height: 40px;
