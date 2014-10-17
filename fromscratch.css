@@ -8,6 +8,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+
 }
 a {
 	text-decoration: none;
@@ -32,6 +33,9 @@ em {
 .subtitle {
   text-align: center; 
 }
+.overide {
+	color: white;
+}
 .navigation {
 	background: #FFFFFF;
 	display: flex;
@@ -41,15 +45,15 @@ em {
 	align-items: center;
 	margin: 0;
 	height: 80px;
-	/*position: fixed;
-	width: 100%;*/
+	position: fixed;
+	width: 100%;
 }
 .navbox {
   color: #808080;
   font-size: 20px;   
 }
 .navbox:hover{
-  color: #8F220A;
+  color: #807bea;
 }
 #container_one {
 	display: flex;
@@ -57,14 +61,15 @@ em {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
+
+
 }
 #box_one {
-	color: white;
+	
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	background: url(/img/ideas/bloom-2608_1280.jpg);
-	
 	height: 799px;
 	align-items: center;
 	justify-content: space-around;
@@ -74,7 +79,8 @@ em {
   	overflow: hidden;
 }
 .phonetypes {
-	font-size: 48px;
+	color: white;
+	font-size: 50px;
 	text-align: center;
 	position: relative;
 	-webkit-animation: mymove 10s infinite;
@@ -87,6 +93,7 @@ em {
 	25%   {top: -60px;}
 	50%   {top: -120px;}
 	75%   {top: -180px;}
+	90%   {top: -240px;}
 	100%   {top: -240px;}
 	
 }
@@ -99,28 +106,29 @@ em {
 	100%  {top: 0px;}
 }*/
 #button_one{
-	padding: 12px;
 	border: 1px solid white; 
-}
-#button_one:hover{
-  color: transparent;
-  text-shadow: 0 0 5px rgba(0,0,0,0.25);
-}
-
-#boxone_link{
-  color: white;
-  font-size: 24px;
-  
+	background-color: #807bea;
 	
 }
+#button_one:hover{
+	background-color: white;
+	border: 1px solid #807bea; 
+
+}
+#boxone_link{
+  	color: white;
+  	font-size: 36px;
+  	margin: 12px;
+}
 #boxone_link:hover{
-  color: transparent;
-  text-shadow: 0 0 5px rgba(0,0,0,0.5); /*dont know about this*/
+  	color: #807bea;
 }
 #headline {
+	color: white;
 	padding: 12px;
-  font-size: 24px;
-  
+  	font-size: 24px;
+  	background-color: #807bea;
+ 
 }
 #box_two {
 	background-color: #FFFFFF;
@@ -132,7 +140,7 @@ em {
 	flex-direction: column;
 	flex-wrap: nowrap;
 	background-image: url(/img/ideas/meadow-196567_1280.jpg);
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	/*height: 520px;*/
 }
 #kats {
@@ -141,7 +149,7 @@ em {
 	justify-content: space-around;
  }
 .cats {
-	border: 2px solid black;
+	border: 2px solid #FFFFFF;
 	border-radius: 52px;  
 }
 .cats img{
@@ -154,45 +162,67 @@ em {
     flex-direction: column;
     align-items: space-around;
 }
-
-
 .list-row {
-  display: flex;
+  	display: flex;
 	flex-direction: row;
-	flex-wrap: no-wrap;
-	justify-content: center;
-	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#sortme{
+	height: 24px;
+	font-size: 24px;
+	text-align: justify;
 }
 .sortinglinks{
-  color: red;  
+	background-color: #bdbdbd;
+  color: #807bea;
+  padding: 4px; 
+  margin: 2px;
+  border: 1px solid #807bea;
+  height: 24px;
+  width: 100px;
 }
 #photobar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  flex-shrink: 1;
+  flex-grow: 0;
+}
+#horse_one {
+	background-image: url(/img/horsepics/horse1.jpg);
+	background-size: 100%;
+}
+#horse_two {
+	background-image: url(/img/horsepics/horse2.jpg);
+	background-size: 100%;
+}
+#horse_three {
+	background-image: url(/img/horsepics/horse3.jpg);
+	background-size: 100%;
+}
+#horse_four {
+	background-image: url(/img/horsepics/horse4.jpg);
+	background-size: 100%;
 }
 .horsepics {
-	width: 285px;
-	height: 228px;
+	min-height: 240px;
+	min-width: 360px;
+	max-width: 680px;
+	flex-shrink: 2;
+	flex-grow: 4;
 }
-
-
-
-
-
 #box_six {
-  background-color: white;
+  	background-image: url(/img/ideas/dark_background.jpg);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
 }
 
 #testimonials {
-  background-color: black;
-	display: flex;
+  	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: baseline;
@@ -204,7 +234,6 @@ em {
   background-repeat: no-repeat;
   text-align: justify;
 }
-
 #container4 {
 	display: flex;
 	flex-direction: row;
@@ -213,7 +242,6 @@ em {
 	justify-content: space-around;
 	align-items: center;
 }
-
 .contact {
 	border-radius: 10px;
 	background-image: url(metalicons.jpg);

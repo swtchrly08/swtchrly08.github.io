@@ -51,7 +51,7 @@
 		</div>
   	</div>
 <div id="box_three">
-	<div class="subtitle">
+	<div class="subtitle overide">
 		<div class="sect_title">
 			<h2>Cats</h2>
 		</div>
@@ -95,37 +95,26 @@
 		<h6>The horse (Equus ferus caballus)[2][3] is one of two extant subspecies of Equus ferus. It is an odd-toed ungulate mammal belonging to the taxonomic family Equidae.</h6>
 		</div> 
 	</div>
-
-
-
-
-
 	<div>	
 		<ul class="list-row"> 
-			<li><h3>You can sort the horses with theses buttons:  </h3> </li>
+			<li><div id="sortme">You can sort the horses with these</div> </li>
 			<li><button onclick="mysort('face_left');"class="sortinglinks">Facing Left</button></li>
-			<li><button onclick="mysort('are_brown');"class="sortinglinks">Brown </button></li>
+			<li><button onclick="mysort('are_brown');"class="sortinglinks">Brown</button></li>
 			<li><button onclick="mysort('are_alone');"class="sortinglinks">Alone</button></li>
 			<li><button onclick="mysort('a_pair');"class="sortinglinks">A Pair</button></li>
 		</ul>
 	</div>
 	<div> 
-		<ul id="photobar">
-			<li><img class="horsepics face_left are_brown are_alone" src="/img/horsepics/horse1.jpg"><p></p></li>
-			<li><img class="horsepics face_left are_brown are_alone" src="/img/horsepics/horse2.jpg"></li>
-			<li><img class="horsepics are_alone" src="/img/horsepics/horse3.jpg"></li>
-			<li><img class="horsepics face_left a_pair" src="/img/horsepics/horse4.jpg"></li>
-		</ul>
+		<div id="photobar">
+			<div id="horse_one" class="horsepics face_left are_brown are_alone"></div>
+			<div id="horse_two" class="horsepics face_left are_brown are_alone"></div>
+			<div id="horse_three" class="horsepics are_alone"></div>
+			<div id="horse_four"class="horsepics face_left a_pair"></div>
+		</div>
 	</div>
-
-
-
-
-
-
 </div>
 	<div id="box_six">
-	    <div class="subtitle">
+	    <div class="subtitle overide">
 	      <div class="sect_title">
 	        <h2>Testimonials</h2>
 	      </div>
