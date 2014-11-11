@@ -50,10 +50,12 @@ em {
 }
 .navbox {
   color: #808080;
-  font-size: 20px;   
+  font-size: 20px;  
+  transition: all .5s ease-out; 
 }
 .navbox:hover{
   color: #807bea;
+  transition: all .5s ease-out;
 }
 #container_one {
 	display: flex;
@@ -61,11 +63,8 @@ em {
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
-
-
 }
 #box_one {
-	
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -84,8 +83,7 @@ em {
 	text-align: center;
 	position: relative;
 	-webkit-animation: mymove 10s infinite;
-	/*animation: mymove 10s infinite;*/
-  
+	/*animation: mymove 10s infinite;*/ 
 }
 @-webkit-keyframes mymove {
 	0%    {top: 0px;}
@@ -108,11 +106,15 @@ em {
 #button_one{
 	border: 1px solid white; 
 	background-color: #807bea;
+	opacity: 0.9;
+	transition: all .5s ease-out;
 	
 }
 #button_one:hover{
+	transition: all .5s ease-out;
 	background-color: white;
 	border: 1px solid #807bea; 
+	opacity: 1;
 
 }
 #boxone_link{
@@ -128,7 +130,12 @@ em {
 	padding: 12px;
   	font-size: 24px;
   	background-color: #807bea;
- 
+  	opacity: 0.9;
+}
+#headline:hover {
+	transition: opacity 1s ease;
+	opacity: 1;
+	
 }
 #box_two {
 	background-color: #FFFFFF;
