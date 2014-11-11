@@ -1,0 +1,12 @@
+# Site settings
+title: Jason Chapman
+email: swtchrly08@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is a work in progress and I have made no specific commitments to update on a regular basis. Practice for html css3 jQuery.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://swtchrly08.github.io" # the base hostname & protocol for your site
+twitter_username: swtchrly08
+github_username:  swtchrly08
+
+# Build settings
+markdown: kramdown
