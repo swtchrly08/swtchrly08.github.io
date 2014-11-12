@@ -3,11 +3,7 @@
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url> 
 
-    <loc>http://swtchrly08.github.io/index.html</loc>
-    <loc>http://swtchrly08.github.io/bootstrap.html</loc>
-    <loc>http://swtchrly08.github.io/blog.html</loc> 
-    <loc>http://swtchrly08.github.io/responsive.html</loc>
-    <loc>http://swtchrly08.github.io/about.html</loc>
+    http://swtchrly08.github.io
 
   </url>
 </urlset>
