@@ -1,6 +1,7 @@
 html{
 	background-color: #FFF;
-	margin-top: 2%;
+	margin-top: 1%;
+	margin-left: 1%;
 }
 body{
 	width: 1440px;
@@ -13,6 +14,8 @@ body{
 }
 a{
 	text-decoration: none;
+	margin:0;
+	padding: 0;
 }
 h1{
 	color: black;
@@ -36,32 +39,20 @@ li{
 	border-radius: 10px;
 }
 .menu-choices{ 
-	float: left;
-	display: inline-block;
-	font-size: 2.0em;
-	background-color: #5A7596;
-	height: 60px;
-	text-align: middle;
-	padding: 0 1%;
-	margin-bottom: 10px;
+	display: inline-block; /*change to block for mobile*/
+	font-size: 2.6em;
+	margin: 1%;	
+	padding: 1%;
+	border-radius: 10px;
 }
 .menu-choices a{
-	display: block;
-	padding: 1% 1%;
-}
-.menu-choices a:link, a:visited{
-	display: block;
-	padding: 1% 1%;
 	color: #FFF;
+	background-color: #5A7596;
+	border-radius: 10px;
 }
 .menu-choices a:hover, a:active{
-	display: block;
-	padding: 1% 1%;
 	background-color: #FFF;
 	color: #5A7596;
-	height: 100%;
-	width: 100%;
-	border-radius: 10px;
 }
 #content{
 	width: 100%;
@@ -150,7 +141,7 @@ li{
 	margin: 2%;
 	padding: 2%;
 	border: 8px double #5A7596;
-	background-color: #FFF;`
+	background-color: #FFF;
 	border-radius: 10px;
 }
 #footer{
